@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 991 이하이면 조건문 미디어 쿼리(질의) @media all and (max-width:991px) 쎄미콜론 사용 절대하지 마세요 */
+@media all and (max-width:980px){
+    /* header */
+    #wrap #header .wrap .gap .container #nav {display:none;position:absolute;top:80px;left:0;width:100%;background:#fff;text-align:left;}
+
+    #wrap #header .wrap .gap .container #nav > ul > li {display:block;margin:0;}
+    #wrap #header .wrap .gap .container #nav > ul > li > a {color:rgba(0,0,0, .7);line-height:45px;text-indent:20px;}
+    #wrap #header .wrap .gap .container #nav > ul > li > a:hover {color:rgba(0,0,0, 1);}
+
+    /* section1 슬라이드 텍스트박스 반응형 */
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box {width:61.2244898vw;height:37.75510204vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap {padding:10vw 11.42857143vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title1 {padding-bottom:4.081632653vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title1 h5 {font-size:1.428571429vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title1 h5 span:nth-child(2) {width:7.142857143vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title1 h5 span i {width:5.102040816vw;}
+
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title2 {width:100%;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title2 h2 {font-size:4.897959184vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title2 span {width:6.12244898vw;height:6.12244898vw;padding:2.653061224vw 0;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title2 span a {line-height:6.12244898vw;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .slide-view .slide-wrap .slide .text-box .text-gap .text-wrap .title2 span a i {font-size:1.530612245vw;}
+
+
+
+    /* 좌우 화살버튼 */
+    #wrap #main #section1 .wrap .gap .container .slide-container .next-btn-wrap {right:15px;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .next-btn-wrap a {opacity:.5;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .next-btn-wrap a i {font-size:25px;}
+
+    #wrap #main #section1 .wrap .gap .container .slide-container .prev-btn-wrap {left:15px;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .prev-btn-wrap a {opacity:.5;}
+    #wrap #main #section1 .wrap .gap .container .slide-container .prev-btn-wrap a i {font-size:25px;}
+
+    /* 페이지 버튼 */
+    #wrap #main #section1 .wrap .gap .container .slide-container .page-btn-wrap {display:none;}
+
+
+}
+
